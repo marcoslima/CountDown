@@ -118,7 +118,7 @@ qx.Class.define("countdown.Application",
 			var tmTimer = new qx.event.Timer(1000);
 			tmTimer.addListener("interval",function(e)
 			{
-				// Calculamos a diferença:
+				// Calculamos a diferenÃ§a:
 				var dtNow = new Date();
 				var nEta = (dtFim.valueOf() - dtNow.valueOf())/1000; // segundos
 				
