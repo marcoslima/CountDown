@@ -80,6 +80,7 @@ qx.Class.define("countdown.Application",
 
 			for(i = 0; i < 4; i++)
 			{
+				MainLy.setColumnAlign(i,"center","middle");
 				cFlds[i] = new qx.ui.basic.Label("00");
 				cFlds[i].set(
 				{
@@ -96,6 +97,7 @@ qx.Class.define("countdown.Application",
 				var cLbl = new qx.ui.basic.Label(cLabels[i]);
 				cLbl.setTextColor("#ffff00");
 				cLbl.setTextAlign("center");
+				cLbl.setBackgroundColor("#000520");
 				MainWnd.add(cLbl,{row:1,column:i});
 			}
 
