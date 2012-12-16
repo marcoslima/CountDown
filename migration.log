@@ -1,0 +1,112 @@
+
+UPGRADE TO 2.0
+----------------------------------------------------------------------------
+  * Number of script input files: 8
+  * Number of HTML input files: 0
+  * Update to version: 2.0
+  * Searching for patch module...
+  * Searching for info expression data...
+    - C:\Program Files\QooxDoo_2.2\tool\data\migration\2.0\info\01-main.dat
+    - Compiling expressions...
+      - 01-main.dat
+    - Number of infos: 4
+  * Searching for patch expression data...
+    - C:\Program Files\QooxDoo_2.2\tool\data\migration\2.0\patches\01-main.dat
+    - Compiling expressions...
+      - 01-main.dat
+    - Number of patches: 9
+
+  FILE PROCESSING:
+----------------------------------------------------------------------------
+  * Processing script files:
+  - File: source\class\countdown\test\DemoTest.js
+  - File: source\class\countdown\Application.js
+  - File: source\class\countdown\theme\Color.js
+  - File: source\class\countdown\simulation\DemoSimulation.js
+  - File: source\class\countdown\theme\Decoration.js
+  - File: source\class\countdown\theme\Appearance.js
+  - File: source\class\countdown\theme\Theme.js
+  - File: source\class\countdown\theme\Font.js
+  * Done
+
+UPGRADE TO 2.0.1
+----------------------------------------------------------------------------
+  * Number of script input files: 8
+  * Number of HTML input files: 0
+  * Update to version: 2.0.1
+  * Searching for patch module...
+  * Searching for info expression data...
+    - Compiling expressions...
+    - Number of infos: 0
+  * Searching for patch expression data...
+    - Compiling expressions...
+    - Number of patches: 0
+
+  FILE PROCESSING:
+----------------------------------------------------------------------------
+  * Processing script files:
+  - File: source\class\countdown\test\DemoTest.js
+  - File: source\class\countdown\Application.js
+  - File: source\class\countdown\theme\Color.js
+  - File: source\class\countdown\simulation\DemoSimulation.js
+  - File: source\class\countdown\theme\Decoration.js
+  - File: source\class\countdown\theme\Appearance.js
+  - File: source\class\countdown\theme\Theme.js
+  - File: source\class\countdown\theme\Font.js
+  * Done
+
+UPGRADE TO 2.0.2
+----------------------------------------------------------------------------
+  * Number of script input files: 8
+  * Number of HTML input files: 0
+  * Update to version: 2.0.2
+  * Searching for patch module...
+  * Searching for info expression data...
+    - Compiling expressions...
+    - Number of infos: 0
+  * Searching for patch expression data...
+    - Compiling expressions...
+    - Number of patches: 0
+
+  FILE PROCESSING:
+----------------------------------------------------------------------------
+  * Processing script files:
+  - File: source\class\countdown\test\DemoTest.js
+  - File: source\class\countdown\Application.js
+  - File: source\class\countdown\theme\Color.js
+  - File: source\class\countdown\simulation\DemoSimulation.js
+  - File: source\class\countdown\theme\Decoration.js
+  - File: source\class\countdown\theme\Appearance.js
+  - File: source\class\countdown\theme\Theme.js
+  - File: source\class\countdown\theme\Font.js
+  * Done
+
+UPGRADE TO 2.1
+----------------------------------------------------------------------------
+  * Number of script input files: 8
+  * Number of HTML input files: 0
+  * Update to version: 2.1
+  * Searching for patch module...
+  * Searching for info expression data...
+    - C:\Program Files\QooxDoo_2.2\tool\data\migration\2.1\info\01-main.dat
+    - Compiling expressions...
+      - 01-main.dat
+    - Number of infos: 8
+  * Searching for patch expression data...
+    - C:\Program Files\QooxDoo_2.2\tool\data\migration\2.1\patches\01-main.dat
+    - Compiling expressions...
+      - 01-main.dat
+    - Number of patches: 34
+
+  FILE PROCESSING:
+----------------------------------------------------------------------------
+  * Processing script files:
+  - File: source\class\countdown\test\DemoTest.js
+  - File: source\class\countdown\Application.js
+  - File: source\class\countdown\theme\Color.js
+  - File: source\class\countdown\simulation\DemoSimulation.js
+  - File: source\class\countdown\theme\Decoration.js
+  - File: source\class\countdown\theme\Appearance.js
+  - File: source\class\countdown\theme\Theme.js
+  - File: source\class\countdown\theme\Font.js
+  * Done
