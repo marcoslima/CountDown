@@ -37,7 +37,7 @@
   "let" :
   {
     "APPLICATION"  : "countdown",
-    "QOOXDOO_PATH" : "C:/programs/qooxdoo1.6",
+    "QOOXDOO_PATH" : "../../../../program files/qooxdoo_2.2",
     "QXTHEME"      : "countdown.theme.Theme",
     "API_EXCLUDE"  : ["qx.test.*", "${APPLICATION}.theme.*", "${APPLICATION}.test.*", "${APPLICATION}.simulation.*"],
     "LOCALES"      : [ "en" ],

@@ -62,18 +62,34 @@ qx.Class.define("countdown.Application",
 			
 			var doc = this.getRoot();
 			doc.setBackgroundColor("#000000");
+
+			var ly0 = new qx.ui.layout.Grid(0,0);
+			var cn0 = new qx.ui.container.Composite(ly0);
+			doc.add(cn0,{edge:0});
+			
+			ly0.setRowFlex(0,1);
+			ly0.setRowFlex(2,1);
+			ly0.setColumnFlex(0,1);
+			ly0.setColumnFlex(2,1);
+			ly0.setRowAlign(1,'center','middle');
 			
 			var MainLy = new qx.ui.layout.Grid(15,0);
 			var MainWnd = new qx.ui.container.Composite(MainLy);
 			
 			
 			
-			doc.add(MainWnd,{edge:0});
+			cn0.add(MainWnd,{column:1, row:1});
+			cn0.add(new qx.ui.core.Spacer(1),{column:0, row:0});
+			cn0.add(new qx.ui.core.Spacer(1),{column:2, row:0});
+			cn0.add(new qx.ui.core.Spacer(1),{column:0, row:2});
+			cn0.add(new qx.ui.core.Spacer(1),{column:2, row:2});
+			
 			
 			for(var i = 0; i < 4; i++)
 			{
 				MainLy.setColumnAlign(i+1, "center", "top");
 			}
+			
 			var fntHora = qx.bom.Font.fromString("150px bold Arial");
 			var cFlds = [];
 			var cLabels = ["Dias","Horas","Minutos","Segundos"];
@@ -89,7 +105,7 @@ qx.Class.define("countdown.Application",
 				});
 				
 				cFlds[i].setBackgroundColor("#202020");
-				cFlds[i].setTextColor("#ffffff");
+				cFlds[i].setTextColor("#ff7000");
 				cFlds[i].setAlignX("center");
 				cFlds[i].setFont(fntHora);
 
